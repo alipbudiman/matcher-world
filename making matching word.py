@@ -17,7 +17,7 @@ for x in word:
     #/// you need to add count for mapping word data
     rm = str(forratio).split(".")[1]
     if int(rm[0:1]) >= 4: #>> 1-9 it means 0.1 - 0.9 (ratio percentace percentage)
-    #/// if ratio > 0.6, it means presentation of match is more than 60%
+    #/// if ratio > 6, it means presentation of match is more than 60%
     #/// bcoz if ratio == 1.0 its mean 100%
     #/// simple test below:
         #text = "alif budiman"
