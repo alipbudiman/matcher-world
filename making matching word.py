@@ -15,7 +15,8 @@ for x in word:
     #/// making some ratio for presentation match
     cnt += 1
     #/// you need to add count for mapping word data
-    if int(round(ratiomatch)) >= 0.6:
+    rm = str(forratio).split(".")[1]
+    if int(rm[0:1]) >= 4: #>> 1-9
     #/// if ratio > 0.6, it means presentation of match is more than 60%
     #/// bcoz if ratio == 1.0 its mean 100%
     #/// simple test below:
