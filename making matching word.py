@@ -18,14 +18,6 @@ for x in word:
     rm = str(forratio).split(".")[1]
     if int(rm[0:1]) >= 4: #>> 1-9 it means 0.1 - 0.9 (ratio percentace percentage)
     #/// if ratio > 6, it means presentation of match is more than 60%
-    #/// bcoz if ratio == 1.0 its mean 100%
-    #/// simple test below:
-        #text = "alif budiman"
-        #import difflib
-        #text = "alif budiman"
-        #word = "alif budiman"
-        #ratiomatch = difflib.SequenceMatcher(None, text.lower(), word.lower()).ratio()
-        #print(ratiomatch)
         result = re.match(word[cnt-1], x.lower())
         #/// matching with module re.match
         if result:
